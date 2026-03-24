@@ -1,0 +1,37 @@
+{
+  "name": "flow-electron",
+  "version": "1.0.0",
+  "description": "Electron wrapper for Flow",
+  "homepage": "https://app.joinflow.com",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "author": {
+    "name": "Johan Gunnarsson",
+    "email": "johangunnarn@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^26.2.0",
+    "electron-builder": "^24.6.0"
+  },
+  "build": {
+    "appId": "com.jogu.flow-electron",
+    "productName": "Telavox Flow-Electron",
+    "directories": {
+      "output": "dist"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "Utility",
+      "icon": "flow.png",
+      "maintainer": "Johan Gunnarsson <johangunnarn@gmail.com>"
+    }
+  },
+  "dependencies": {}
+}
