@@ -1,6 +1,6 @@
 ## Telavox Flow Electron Wrapper
 
-Simple electron wrapper for Telavox Flow. Made because Telavox Flow works poorly when using Wine and they don't have an official Linux client
+Simple electron wrapper for Telavox Flow Softphone, allowing you to access PBX services from Telavox directly from Linux. Made because Telavox Flow works poorly when using Wine and they don't have an official Linux client
 
  The file `~/.config/flow-electron/credentials` MUST exist for this to work, if you want automated login (only email/username and password ATM) the file must look like this:
 ```
